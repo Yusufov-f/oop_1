@@ -1,0 +1,33 @@
+class Four: #Задание 4
+    def __init__(self, fild_one, fild_two):
+        self.fild_one = fild_one
+        self.fild_two = fild_two
+    def get(self):
+        print("Калорийность продукта -", self.fild_one)
+        print("Вес продукта в граммах -", self.fild_two)
+
+    def sum(self):
+        print("Общая калорийность продукта = ", self.fild_one * self.fild_two)
+
+first_one = Four(100,50)
+first_one.get()
+first_one.sum()
+
+print("-------------------------------------------------------")
+
+class Five: #Задание 5
+    def __init__(self, fild_one, fild_two):
+        self.fild_one = fild_one
+        self.fild_two = fild_two
+    def get(self):
+        print("Вещественное число левого диапазона -", self.fild_one)
+        print("Вещественное число правого диапазона -", self.fild_two)
+
+    def sum(self):
+        print("квадрат длинны диапазона = ", self.fild_one * self.fild_two)
+
+first_one = Five(3,15)
+first_one.get()
+first_one.sum()
+
+print("-------------------------------------------------------")
